@@ -10,7 +10,7 @@ We developed SELF-Former, a transformer-based framework that utilizes multi-scal
 SELF-Former is a novel framework that leverages the power of transformers to capture multi-scale gene representations. By incorporating spatial correlation constraints, SELF-Former effectively reconstructs spatial transcriptomics data from single-cell RNA sequencing (scRNA-seq) data. This approach enhances the accuracy and resolution of spatial gene expression patterns, providing a valuable tool for spatial omics research.
 
 ## FlowChart
-![framework](./flowchart.pdf)
+![framework](./flowchart.jpg)
 
 ## Arguments
 ### SELF-Former
@@ -24,7 +24,7 @@ We provide training model code for STARmap and BRCA, as well as a tutorial for t
 
 ### Evaluations Results
 The specific resulet settings follow those in the 
-We provide training code for the corresponding datasets, which can be used to validate the test results mentioned in [Spatial Benchmark](https://github.com/QuKunLab/SpatialBenchmarking) and obtain the corresponding Excel data. Additionally, we provide the corresponding test results at [ckpt Dropbox](https://www.dropbox.com/scl/fo/zej4p6bpdeod7cy1zyhlt/AAivuqIGXwrSap0ivaV1Yco?rlkey=rz2e1wl42dm7fhdxjh8g9pspn&st=hn1me3uc&dl=0) (metrics) and [ckpt Dropbox](https://www.dropbox.com/scl/fo/4lopmdwli7q2tnzxf0og2/ANFazSNg4e3odeuthAYoPu4?rlkey=fpkthdm88ouf18pt0bav8z77b&st=ofy4nx7s&dl=0).
+We provide training code for the corresponding datasets, which can be used to validate the test results mentioned in [Spatial Benchmark](https://github.com/QuKunLab/SpatialBenchmarking) and obtain the corresponding Excel data. Additionally, we provide the corresponding test results at [ckpt Dropbox](https://www.dropbox.com/scl/fo/zej4p6bpdeod7cy1zyhlt/AAivuqIGXwrSap0ivaV1Yco?rlkey=rz2e1wl42dm7fhdxjh8g9pspn&st=hn1me3uc&dl=0) (metrics) and [ckpt Dropbox](https://www.dropbox.com/scl/fo/4lopmdwli7q2tnzxf0og2/ANFazSNg4e3odeuthAYoPu4?rlkey=fpkthdm88ouf18pt0bav8z77b&st=ofy4nx7s&dl=0) (reconstructed results).
 
 ### Environment Setup
 Create and activate the conda environment, then install required packages:
